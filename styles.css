@@ -3,15 +3,24 @@
 .container {
 display: flex;
 margin: 0 auto;
-width: 1200px;
-height: 1000px;
+width: 900px;
+font-size: 14px;
+
 }
 
+h2 {
+margin-left: 20px;
+
+}
 .left_side {
 width: 30%;
 min-height:  100%;
-background-color: #f0e8eadb;
+background: linear-gradient(0deg,#d1cece 0%, #ffffff 80%);;
 box-sizing: border-box;
+}
+
+.contacts_and_skills {
+padding: 5px;
 }
 
 .right_side {
@@ -27,3 +36,21 @@ width: 100%;
 box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 6px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 16px 16px 0px, rgba(0, 0, 0, 0.15) 8px 32px 32px 0px, rgba(0, 0, 0, 0.15) 8px 64px 64px 0px;
 
 }
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        min-width: 290px;
+        flex-direction: column;
+       
+    }
+        
+    .left_side {
+        width: 100%;
+        min-height: 350px;
+    }
+    .right_side{
+        width: 100%;
+        min-width: 350px;
+    }
+  } 
