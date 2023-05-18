@@ -6,19 +6,19 @@
   font-size: 18px;
 }
 
-h2 {
+/* h2 {
   margin-left: 20px;
     font-size: 24px;
   margin-top: 30px;
   margin-bottom: 10px;
-}
+} */
 
-h4,
+/* h4,
 h2,
 h3,
 p {
   margin-block-end: 0;
-}
+} */
 span {
   color: black;
 }
@@ -34,7 +34,7 @@ span {
 }
 
 .right_side {
-  padding: 3%;
+  padding: 2rem;
   width: 70%;
   min-height: 100%;
   /*background-color: hsl(129, 76%, 38%);*/
@@ -75,35 +75,77 @@ li {
 }
 
 
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
+
+
+
+
+.resume {
+  font-family: Arial, sans-serif;
+  margin: 0px;
 }
 
-h3 {
-  font-size: 20px;
+.work-experience__title {
+  font-size: 28px;
+  margin-top: 10px;
+  
+}
+
+.work-experience__subtitle {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-decoration: underline;
+
+}
+
+.work-experience__description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.66);
+  margin-block-end:0;
+}
+
+.work-experience__date {
+  color: grey;
+  margin: 1rem 0;
+}
+
+.work-experience__project {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.work-experience__task {
+  margin-bottom: 5px;
+}
+
+.education__title {
+  font-size: 24px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.contacts_and_skills {
+
+.education__subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.education__date {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.education__certificate-link {
+  display: inline-block;
+  font-size: 16px;
   margin-bottom: 10px;
+  color: blue;
 }
-.skills span {
-  font-weight: bold;
-}
-.project {
-  margin-bottom: 10px;
-}
-.project span {
-  font-weight: bold;
-}
-.job {
-  margin-bottom: 10px;
-}
-.job span {
-  font-weight: bold;
-}
-.education {
+
+.education__degree {
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
